@@ -3,8 +3,9 @@
 
 <% @superheroes.each do |member| %>
 <h2>Hero Name: <%= member.name %></h2>
-  <div>
-    <p>Hero Power: <%= member.power %></p>
-    <p>Hero Biography: <%= member.bio %></p>
-  </div>
+    <p>
+      Hero Power: <%= member.power %>
+      <br>
+      Hero Biography: <%= member.bio %>
+    </p>
 <% end %>
